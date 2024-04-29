@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.central {
+    height: 500px;
+    width: 1000px;
+    background-color: darkgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+input{
+    display: inline-block;
+    margin: 30px; 
+}
+
+.campoA, .campoB {
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 30px;
+    margin-bottom: 60px; 
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+button{
+    display: block; 
+    margin: 0 auto; 
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    background-color: darkslategray;
+    color: white;
+}
